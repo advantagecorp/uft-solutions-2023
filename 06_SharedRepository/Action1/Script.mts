@@ -8,5 +8,6 @@ WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("SELECT FLIGHT").Click @@ hightlight id_;_2057031200_;_script infofile_;_ZIP::ssf14.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("passengerName").Set "John Smith" @@ hightlight id_;_2135278184_;_script infofile_;_ZIP::ssf15.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("ORDER").Click @@ hightlight id_;_2135273912_;_script infofile_;_ZIP::ssf16.xml_;_
+Wait 5
 WpfWindow("Micro Focus MyFlight Sample").WpfObject("John Smith").Click 18,32 @@ hightlight id_;_1919498736_;_script infofile_;_ZIP::ssf18.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("NEW SEARCH").Click @@ hightlight id_;_2057032928_;_script infofile_;_ZIP::ssf17.xml_;_

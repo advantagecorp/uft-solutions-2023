@@ -8,5 +8,6 @@ WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("SELECT FLIGHT").Click @@ hightlight id_;_1997139744_;_script infofile_;_ZIP::ssf14.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("passengerName").Set "John Jackson" @@ hightlight id_;_1997141616_;_script infofile_;_ZIP::ssf15.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("ORDER").Click
+Wait 5
 WpfWindow("Micro Focus MyFlight Sample").WpfObject("Price").Check CheckPoint("PriceCheck")
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("NEW SEARCH").Click @@ hightlight id_;_1997151744_;_script infofile_;_ZIP::ssf17.xml_;_

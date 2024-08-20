@@ -8,6 +8,7 @@ WpfWindow("Micro Focus MyFlight Sample").WpfTable("flightsDataGrid").SelectCell 
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("SELECT FLIGHT").Click @@ hightlight id_;_1964935904_;_script infofile_;_ZIP::ssf19.xml_;_
 WpfWindow("Micro Focus MyFlight Sample").WpfEdit("passengerName").Set "John Jackson"
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("ORDER").Click
+Wait 5
 WpfWindow("Micro Focus MyFlight Sample").WpfObject("Order completed").WaitProperty "enabled", true, 10000
 WpfWindow("Micro Focus MyFlight Sample").WpfButton("NEW SEARCH").Click @@ hightlight id_;_2036179056_;_script infofile_;_ZIP::ssf32.xml_;_
 
